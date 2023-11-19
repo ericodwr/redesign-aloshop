@@ -52,3 +52,7 @@ body {
   background-color: #445dc0;
   color: white;
 }
+
+.feature-list li {
+  margin: 1rem 0;
+}
