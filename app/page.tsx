@@ -108,19 +108,6 @@ const dataImages = [
 export default function Home() {
   const theme = useTheme();
   const [value, setValue] = useState(0);
-  // useEffect(() => {
-  //   const interfal = setInterval(() => {
-  //     setValue((prev) => prev + 2);
-  //   }, 20);
-
-  //   return () => clearInterval(interfal);
-  // }, [value]);
-
-  // useEffect(() => {
-  //   if (value === 300) {
-  //     setValue(0);
-  //   }
-  // }, [value]);
 
   const [activeStep, setActiveStep] = useState(0);
   const maxSteps = images.length;

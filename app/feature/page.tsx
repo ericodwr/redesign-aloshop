@@ -122,7 +122,7 @@ const Feature = () => {
         <h1 className="text-5xl font-bold text-center">
           Bergabung Dengan Kami
         </h1>
-        <h1 className="text-5xl font-bold text-center">Sekarang Gratis</h1>
+        <h1 className="text-5xl font-bold text-center mt-4">Sekarang Gratis</h1>
         <div className="flex justify-center mt-10 mb-24">
           <Link
             href={'/register'}
